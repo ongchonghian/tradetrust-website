@@ -62,7 +62,7 @@ export const NavigationBar = () => {
       <div className="container-custom">
         <nav className={`navbar navbar-expand-xl navbar-dark ${css.topnavbar}`}>
           <NavHashLink className={`navbar-brand ${css.logo}`} to="/" smooth>
-            <img className="img-fluid" src="/static/images/powered_by_tt.svg" alt="atlanticLogistics" width="530"/>
+            <img className="img-fluid" src="/static/images/powered_by_tt.svg" alt="atlanticLogistics" width="400px"/>
           </NavHashLink>
           <button
             className="navbar-toggler"
