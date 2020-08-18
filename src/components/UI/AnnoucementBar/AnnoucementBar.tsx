@@ -44,7 +44,7 @@ export const AnnoucementBar = styled(AnnoucementBarUnStyled)`
     background-color: #82AAFF;
     border-radius: 4px;
     background-image: url("/static/images/webinar/logistics-web banner.png");
-    background-position: 0 90%;
+    background-position: 0 120%;
     background-repeat: no-repeat;
     padding: 30px 20px;
 
