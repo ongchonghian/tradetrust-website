@@ -67,7 +67,7 @@ export const AnnoucementBar = styled(AnnoucementBarUnStyled)`
 
   h1 {
     ${mixin.fontSourcesansproRegular};
-    ${mixin.fontSize(26)};
+    ${mixin.fontSize(36)};
   }
 
   h5 {
