@@ -36,8 +36,8 @@ export const AnnoucementBarUnStyled = ({ className }: AnnoucementBarProps) => {
 };
 
 export const AnnoucementBar = styled(AnnoucementBarUnStyled)`
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 
   .announcement-bar {
     position: relative;
@@ -46,12 +46,12 @@ export const AnnoucementBar = styled(AnnoucementBarUnStyled)`
     max-height: 300px;
     min-height: 250px;
     background-image: url("/static/images/webinar/logistics-web banner.png");
-    background-position: 0 80%;
+    background-position: 0 75%;
     background-repeat: no-repeat;
-    padding: 10px 5px;
+    padding: 20px 20px;
 
     @media only screen and (min-width: ${vars.lg}) {
-      padding: 10px 20px;
+      padding: 20px 30px;
     }
 
     &::before {
