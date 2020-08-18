@@ -16,7 +16,7 @@ export const AnnoucementBarUnStyled = ({ className }: AnnoucementBarProps) => {
             <div className="announcement-bar">
               <div className="row align-items-center">
                 <div className="col-12 col-lg-7">
-                  <h1 className="mb-3" style="text-align:center" font-weight="bold">Atlantic Carrier</h1>
+                  <h1 className="mb-3" >Atlantic Carrier</h1>
                   <h5 className="mb-3">
                     Embracing the Future of Logistics
                   </h5>
