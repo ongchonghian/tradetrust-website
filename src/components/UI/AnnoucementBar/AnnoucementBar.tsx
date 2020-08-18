@@ -43,8 +43,10 @@ export const AnnoucementBar = styled(AnnoucementBarUnStyled)`
     position: relative;
     background-color: #82AAFF;
     border-radius: 4px;
+    max-height: 300px;
+    min-height: 250px;
     background-image: url("/static/images/webinar/logistics-web banner.png");
-    background-position: 0 100%;
+    background-position: 0 80%;
     background-repeat: no-repeat;
     padding: 10px 5px;
 
@@ -65,6 +67,7 @@ export const AnnoucementBar = styled(AnnoucementBarUnStyled)`
 
   h1 {
     ${mixin.fontSourcesansproRegular};
+    ${mixin.fontSize(26)};
   }
 
   h5 {
