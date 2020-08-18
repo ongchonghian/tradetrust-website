@@ -16,18 +16,15 @@ export const AnnoucementBarUnStyled = ({ className }: AnnoucementBarProps) => {
             <div className="announcement-bar">
               <div className="row align-items-center">
                 <div className="col-12 col-lg-7">
-                  <h1 className="mb-3">TradeTrust Tech Webinar Series</h1>
+                  <h1 className="mb-3" style="text-align:center" font-weight="bold">Atlantic Carrier</h1>
                   <h5 className="mb-3">
-                    Advance your knowledge with our captivating talks, interactive content and more for free!
+                    Embracing the Future of Logistics
                   </h5>
                   <p className="mb-0">
-                    This series of tech talks is organised by the Infocomm Media Development Authority of Singapore
-                    (IMDA) and GovTech Singapore. It comprises six webinars and aims to provide professionals with
-                    knowledge on TradeTrust as a digital utility for cross border trade.
+                    At Atlantic Carrier, we provides comprehensive total logistic solution including Air & Sea freight, Project shipment, Professional Cargo handling, Transshipment, Storage Facility and much more.
                   </p>
                 </div>
-                <div className="col-12 col-lg-auto ml-lg-auto mt-4 mt-lg-0">
-                  <ReactRouterLinkButtonSolidOrangeWhite to="/webinar">View More</ReactRouterLinkButtonSolidOrangeWhite>
+                <div className="col-12 col-lg-auto ml-lg-auto mt-4 mt-lg-0">                  
                 </div>
               </div>
             </div>
@@ -46,7 +43,7 @@ export const AnnoucementBar = styled(AnnoucementBarUnStyled)`
     position: relative;
     background-color: #5d6975;
     border-radius: 4px;
-    background-image: url("/static/images/webinar/IMDA_cube.png");
+    background-image: url("/static/images/webinar/logistics-web banner.png");
     background-position: 0 75%;
     background-repeat: no-repeat;
     padding: 30px 20px;
