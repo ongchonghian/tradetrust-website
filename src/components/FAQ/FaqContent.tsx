@@ -46,6 +46,6 @@ export const FaqContent = styled(FaqContentUnStyled)`
   }
 
   .answer {
-    color: ${vars.brandNavy};
+    color: ${vars.offblack};
   }
 `;

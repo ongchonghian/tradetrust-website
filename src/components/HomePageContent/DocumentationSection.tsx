@@ -33,7 +33,7 @@ export const SectionDocumentation = styled(Section)`
     &:hover {
       .fa-file-alt,
       .fa-code {
-        color: ${vars.brandNavy};
+        color: ${vars.offblack};
       }
 
       p {

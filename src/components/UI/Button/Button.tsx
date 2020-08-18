@@ -182,14 +182,14 @@ export const ButtonSolidGreenWhite = styled(Button)`
 export const ButtonBorderedBlue = styled(Button)`
   ${baseStyleButton({
     bgColor: vars.white,
-    textColor: vars.brandNavy,
+    textColor: vars.offblack,
   })}
 
   ${mixin.fontSourcesansproRegular()}
-  border: solid 1px ${vars.brandNavy};
+  border: solid 1px ${vars.offblack};
 
   &:hover {
-    background-color: ${vars.brandNavy};
+    background-color: ${vars.offblack};
     color: ${vars.white};
   }
 `;

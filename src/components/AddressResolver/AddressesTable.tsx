@@ -44,7 +44,7 @@ export const TableStyle = () => {
 
     .table-thead {
       color: ${vars.white};
-      background-color: ${vars.brandNavy};
+      background-color: ${vars.offblack};
     }
 
     .table-tbody {

@@ -12,7 +12,7 @@ export const DefaultView = ({ hover, accept, toggleQrReaderVisible }) => (
   >
     <div className={css["image-container"]}>
       <i>
-        <img alt=".tradetrust Dropzone" src="/static/images/dropzone/dropzone_illustration.svg" />
+        <img alt=".tradetrust Dropzone" src="/static/images/dropzone/dropzone_illustration.png" />
       </i>
     </div>
     {accept ? null : <div>File cannot be read. Please check that you have a valid .tt or .json file</div>}
