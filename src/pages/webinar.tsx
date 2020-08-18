@@ -19,7 +19,7 @@ export const WebinarPage = () => (
         property="og:description"
         content="Advance your knowledge with our captivating talks, interactive content and more for free."
       />
-      <meta property="og:title" content="TradeTrust - An easy way to check and verify your documents" />
+      <meta property="og:title" content="Atlantic Carrier - Powered By TradeTrust" />
       <meta property="og:url" content={`${window.location.origin}/webinar`} />
       <title>TradeTrust - Webinar Registration</title>
     </Helmet>

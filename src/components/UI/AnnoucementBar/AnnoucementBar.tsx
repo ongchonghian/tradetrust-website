@@ -36,15 +36,15 @@ export const AnnoucementBarUnStyled = ({ className }: AnnoucementBarProps) => {
 };
 
 export const AnnoucementBar = styled(AnnoucementBarUnStyled)`
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 
   .announcement-bar {
     position: relative;
-    background-color: #5d6975;
+    background-color: #82AAFF;
     border-radius: 4px;
     background-image: url("/static/images/webinar/logistics-web banner.png");
-    background-position: 0 75%;
+    background-position: 0 90%;
     background-repeat: no-repeat;
     padding: 30px 20px;
 
