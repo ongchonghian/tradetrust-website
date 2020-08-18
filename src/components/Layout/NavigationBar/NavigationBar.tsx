@@ -58,7 +58,7 @@ export const NavigationBar = () => {
   const location = useLocation();
 
   return (
-    <div className="bg-brand-navy">
+    <div className="bg-offblack">
       <div className="container-custom">
         <nav className={`navbar navbar-expand-xl navbar-dark ${css.topnavbar}`}>
           <NavHashLink className={`navbar-brand ${css.logo}`} to="/" smooth>

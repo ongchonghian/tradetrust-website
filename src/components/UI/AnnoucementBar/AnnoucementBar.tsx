@@ -9,7 +9,7 @@ export interface AnnoucementBarProps {
 
 export const AnnoucementBarUnStyled = ({ className }: AnnoucementBarProps) => {
   return (
-    <section className={`${className} bg-brand-navy text-white`}>
+    <section className={`${className} bg-offblack text-white`}>
       <div className="container-custom">
         <div className="row">
           <div className="col-12">
@@ -43,8 +43,8 @@ export const AnnoucementBar = styled(AnnoucementBarUnStyled)`
     position: relative;
     background-color: #82AAFF;
     border-radius: 4px;
-    max-height: 300px;
-    min-height: 250px;
+    max-height: 300px auto;
+    min-height: 250px auto;
     background-image: url("/static/images/webinar/logistics-web banner.png");
     background-position: 0 75%;
     background-repeat: no-repeat;

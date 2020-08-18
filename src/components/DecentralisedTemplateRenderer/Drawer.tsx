@@ -67,7 +67,7 @@ export class Drawer extends Component<DrawerProps, DrawerState> {
             {this.createTabs(templates)}
           </div>
         ) : null}
-        <div className={`bg-brand-navy ${showAbsHeader ? "" : css["mb-sidenav"]}`}>
+        <div className={`bg-offblack ${showAbsHeader ? "" : css["mb-sidenav"]}`}>
           <div className={css.togglebtn} onClick={() => this.toggleDrawer()}>
             &#9776;
           </div>
