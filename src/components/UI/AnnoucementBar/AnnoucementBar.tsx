@@ -44,12 +44,12 @@ export const AnnoucementBar = styled(AnnoucementBarUnStyled)`
     background-color: #82AAFF;
     border-radius: 4px;
     background-image: url("/static/images/webinar/logistics-web banner.png");
-    background-position: 0 120%;
+    background-position: 0 100%;
     background-repeat: no-repeat;
-    padding: 30px 20px;
+    padding: 10px 5px;
 
     @media only screen and (min-width: ${vars.lg}) {
-      padding: 20px 30px;
+      padding: 10px 20px;
     }
 
     &::before {

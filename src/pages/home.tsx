@@ -29,15 +29,15 @@ export const HomePage = (props: any) => {
       <Helmet>
         <meta
           name="description"
-          content="TradeTrust lets you verify the documents you have of anyone from any issuer. All in one place."
+          content="Atlantic Carrier - Powered By TradeTrust"
         />
         <meta
           property="og:description"
-          content="TradeTrust lets you verify the documents you have of anyone from any issuer. All in one place."
+          content="Atlantic Carrier - Powered By TradeTrust"
         />
-        <meta property="og:title" content="TradeTrust - An easy way to check and verify your documents" />
+        <meta property="og:title" content="Atlantic Carrier - Powered By TradeTrust" />
         <meta property="og:url" content={`${window.location.origin}`} />
-        <title>TradeTrust - An easy way to check and verify your documents</title>
+        <title>Atlantic Carrier - Powered By TradeTrust</title>
       </Helmet>
       <MainPageContainer />
     </>
